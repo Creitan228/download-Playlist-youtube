@@ -18,7 +18,7 @@ def download_video(video_info, index, resolution="480p", output_template='%(titl
         'format': f'bestvideo[height<=480]+bestaudio/best[height<=480]',
         'outtmpl': output_path,
         'merge_output_format': 'mp4',
-        'ffmpeg_location': r'C:\Users\DESCTOP228\Documents\project\python\yotube download\util\ffmpeg.exe',
+        'ffmpeg_location': r'ваш путь\util\ffmpeg.exe',
         'postprocessors': [{
             'key': 'FFmpegVideoConvertor',
             'preferedformat': 'mp4',
